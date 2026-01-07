@@ -10,17 +10,23 @@ The focus is on advanced SQL analytics, business insights, and data modeling.
 - Size: ~100,000 orders
 
 ## Tools
+- Python
 - PostgreSQL
 - pgAdmin 4
 - SQL (CTEs, Window Functions, Cohort Analysis)
 - Power BI (visualization)
 
 ## Project Workflow
-1. Raw data ingestion (CSV → PostgreSQL)
-2. Data cleaning & staging (SQL)
-3. Business metrics & analytics tables
-4. Cohort analysis & customer lifetime value
-5. Visualization in Power BI
+1. Raw data ingestion (CSV → Python → PostgreSQL)
+3. Data cleaning & staging (SQL)
+4. Business metrics & analytics tables
+5. Cohort analysis & customer lifetime value
+6. Visualization in Power BI
+
+   **  Step 1 – Data Setup**
+Designed relational schema for e-commerce analytics
+Loaded real-world data (~100k orders) into PostgreSQL
+Performed data quality checks using SQL
 
 ## Key Business Questions
 - How much revenue comes from new vs returning customers?
@@ -32,6 +38,7 @@ The focus is on advanced SQL analytics, business insights, and data modeling.
 See `/sql` folder for all SQL scripts.
 
 ## Key Skills Demonstrated
+- Python (ETL)
 - Advanced SQL (CTEs, Window Functions, Joins)
 - Business & customer analytics
 - Data modeling

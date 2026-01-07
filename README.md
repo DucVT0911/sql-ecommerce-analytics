@@ -23,10 +23,10 @@ The focus is on advanced SQL analytics, business insights, and data modeling.
 5. Cohort analysis & customer lifetime value
 6. Visualization in Power BI
 
-   **  Step 1 – Data Setup**
-Designed relational schema for e-commerce analytics
-Loaded real-world data (~100k orders) into PostgreSQL
-Performed data quality checks using SQL
+  _**Step 1 – Data Setup**_
+  - Designed relational schema for e-commerce analytics 
+  - Loaded real-world data (~100k orders) into PostgreSQL 
+  - Performed data quality checks using SQL 
 
 ## Key Business Questions
 - How much revenue comes from new vs returning customers?

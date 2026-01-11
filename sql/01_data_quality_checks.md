@@ -9,6 +9,8 @@ The goal is to detect:
 - Orphan records
 - Duplicates
 - Data anomalies
+
+```
 -- Check missing order timestamps
 SELECT *
 FROM public.orders
@@ -39,4 +41,4 @@ SELECT customer_id, COUNT(*)
 FROM public.customers
 GROUP BY customer_id
 HAVING COUNT(*) > 1;
-
+```
